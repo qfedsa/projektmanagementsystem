@@ -1,0 +1,60 @@
+/* Gantt Chart Styles */
+.gantt .grid-background {
+  fill: #ffffff;
+}
+
+.gantt .grid-header {
+  fill: #f3f4f6;
+  stroke: #e5e7eb;
+}
+
+.gantt .grid-row {
+  fill: #ffffff;
+}
+
+.gantt .row-line {
+  stroke: #e5e7eb;
+}
+
+.gantt .tick {
+  stroke: #e5e7eb;
+}
+
+.gantt .bar {
+  fill: #3b82f6;
+  stroke: none;
+  transition: fill 0.3s ease;
+}
+
+.gantt .bar-progress {
+  fill: #2563eb;
+}
+
+.gantt .bar-invalid {
+  fill: #ef4444;
+}
+
+.gantt .bar-label {
+  fill: #ffffff;
+  dominant-baseline: central;
+  text-anchor: middle;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.gantt .handle {
+  fill: #3b82f6;
+  cursor: ew-resize;
+}
+
+.gantt .dependency-line {
+  stroke: #9ca3af;
+  stroke-width: 2px;
+  marker-end: url(#arrowhead);
+}
+
+.gantt-container {
+  position: relative;
+  overflow: hidden;
+  font-family: inherit;
+}
